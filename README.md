@@ -61,7 +61,7 @@ Note:
 2. Clone the repository:
 
     ```bash
-    git clone https://github.com/your_username/etcd-cluster-operations-app.git
+    git clone https://github.com/Swathi-Karanth/etcd-datastore.git
     ```
 
 3. Install the required dependencies:
