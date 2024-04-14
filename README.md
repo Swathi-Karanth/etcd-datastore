@@ -31,7 +31,7 @@ We use the [etcd3 Python client library](https://python-etcd3.readthedocs.io/en/
 - **list_keys.py**: This file contains the code to list all the keys stored in the etcd cluster. It retrieves and displays all the keys in the cluster in alphabetical order. The list_keys function uses the etcd3 Python client library to interact with the etcd cluster and perform the list operation.
 - **put_pair.py**: This file contains the code to put a new key-value pair in the etcd cluster. It takes a key and value as input and adds the key-value pair to the cluster. If the key already exists, its value is updated. The put_key function uses the etcd3 Python client library to interact with the etcd cluster and perform the put operation.
 - app.py: This file contains the code for the Streamlit app that allows users to interact with the etcd cluster using a graphical interface. The app provides options to list all keys, get the value for a key, put a new key-value pair, and delete a key-value pair. The app uses the etcd3 Python client library to interact with the etcd cluster and perform the specified operations. The app displays clear instructions and error messages to guide the user through the process.
-- **app_command_line.py**: This file contains the code for the command-line interface that allows users to interact with the etcd cluster using text-based commands. The command-line interface provides options to list all keys, get the value for a key, put a new key-value pair, and delete a key-value pair. The command-line interface uses the etcd3 Python client library to interact with the etcd cluster and perform the specified operations. The command-line interface displays clear instructions and error messages to guide the user through the process.
+- **command_line_app.py**: This file contains the code for the command-line interface that allows users to interact with the etcd cluster using text-based commands. The command-line interface provides options to list all keys, get the value for a key, put a new key-value pair, and delete a key-value pair. The command-line interface uses the etcd3 Python client library to interact with the etcd cluster and perform the specified operations. The command-line interface displays clear instructions and error messages to guide the user through the process.
 
 
 Note: 
@@ -91,7 +91,7 @@ Note:
 
     To Run the command-line app:
     ```bash
-    python app_command_line.py
+    python command_line_app.py
     ```
 
 7. Choose the operation you want to perform from the dropdown menu and follow the instructions.
