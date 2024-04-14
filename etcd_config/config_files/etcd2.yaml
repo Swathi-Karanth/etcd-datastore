@@ -1,0 +1,8 @@
+name: node2
+data-dir: node2
+listen-client-urls: http://localhost:2378
+listen-peer-urls: http://localhost:2381
+initial-advertise-peer-urls: http://localhost:2381
+advertise-client-urls: http://localhost:2378
+initial-cluster: node1=http://localhost:2380,node2=http://localhost:2381,node3=http://localhost:2382
+initial-cluster-state: new
